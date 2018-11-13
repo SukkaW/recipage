@@ -1,0 +1,112 @@
+/**
+ * =========================================================
+ * ************   Global   ************
+ * =========================================================
+ */
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background: #fff;
+    color: #3b4351;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: .8rem;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+
+html *::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+    background: transparent;
+}
+
+@media (min-width: 1024px) {
+    html *::-webkit-scrollbar {
+        width: 8px;
+        height: 6px;
+    }
+}
+
+html *::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .3);
+}
+
+/**
+ * =========================================================
+ * ************   Content   ************
+ * =========================================================
+ */
+
+.recipage-content.markdown-body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 4rem 1rem;
+    color: #3b4351;
+}
+
+@media (max-width: 767px) {
+    .markdown-body {
+        margin: 0;
+        padding: 4px 16px 4rem;
+    }
+}
+
+/* Patch markdown.css */
+
+.markdown-body blockquote {
+    margin: 0 0 16px 0;
+}
+
+/**
+ * =========================================================
+ * ************   Footer   ************
+ * =========================================================
+ */
+
+.recipage-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fafafa;
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    margin-top: 16px;
+    padding: 8px 45px;
+}
+
+@media (max-width: 767px) {
+    .recipage-footer {
+        padding: 8px 16px;
+        margin: 0;
+        margin-top: 16px;
+    }
+}
+
+.recipage-footer-box {
+    align-items: center;
+    line-height: 1;
+}
+
+.recipage-footer-title {
+    line-height: 1.875;
+    margin: 0 1rem 0 0;
+    font-size: .8rem;
+    float: left;
+    font-weight: 400;
+}
+
+.recipage-footer-logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    float: right;
+}
