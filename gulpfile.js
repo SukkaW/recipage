@@ -19,7 +19,7 @@ var jsBanner = [
 
 var cssBanner = [
     '/*!',
-    ' * Recipage - Default Theme | v<%= pkg.version %>',
+    ' * Recipage | v<%= pkg.version %>',
     ' * Author: <%= pkg.author %>',
     ' * Link: <%= pkg.homepage %>',
     ' * License: <%= pkg.license %>',
