@@ -1,6 +1,6 @@
 {
   "name": "recipage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": ":page_with_curl: Recipe-Page: Turn a markdown file into one simple page",
   "main": "/dist/recipage.min.js",
   "scripts": {
