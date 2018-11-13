@@ -1,18 +1,12 @@
 <p align="center">
-<img src="./docs/recipage.svg" alt="recipage" width="200">
+<img src="https://cdn.jsdelivr.net/npm/recipage@0.1.1/docs/recipage.svg" alt="recipage" width="200">
 </p>
 
 <h1 align="center">recipage</h1>
 
 > :page_with_curl: reci(pe)page: Turn a markdown file into one simple page
 
-[![npm](https://img.shields.io/npm/v/recipage.svg?style=flat-square)](https://www.npmjs.com/package/recipage)
-[![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://skk.moe)
-[![npm](https://img.shields.io/npm/l/recipage.svg?style=flat-square)](./LICENSE)
-[![size](https://img.badgesize.io/SukkaW/recipage/master/dist/recipage.js?style=flat-square&compression=gzip)](https://github.com/SukkaW/recipage/tree/master/dist)
-[![Travis](https://img.shields.io/travis/SukkaW/recipage.svg?style=flat-square)](https://travis-ci.org/SukkaW/recipage)
-[![devDependency Status](https://img.shields.io/david/dev/SukkaW/recipage.svg?style=flat-square)](https://david-dm.org/SukkaW/recipage#info=devDependencies)
-[![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/recipage/badge)](https://www.jsdelivr.com/package/npm/recipage)
+[![npm](https://img.shields.io/npm/v/recipage.svg?style=flat-square)](https://www.npmjs.com/package/recipage) [![Author](https://img.shields.io/badge/Author-Sukka-b68469.svg?style=flat-square)](https://skk.moe) [![npm](https://img.shields.io/npm/l/recipage.svg?style=flat-square)](https://github.com/SukkaW/recipage/blob/master/LICENSE) [![size](https://img.badgesize.io/SukkaW/recipage/master/dist/recipage.js?style=flat-square&compression=gzip)](https://github.com/SukkaW/recipage/tree/master/dist) [![Travis](https://img.shields.io/travis/SukkaW/recipage.svg?style=flat-square)](https://travis-ci.org/SukkaW/recipage) [![devDependency Status](https://img.shields.io/david/dev/SukkaW/recipage.svg?style=flat-square)](https://david-dm.org/SukkaW/recipage#info=devDependencies) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/recipage/badge)](https://www.jsdelivr.com/package/npm/recipage)
 
 ## Intro
 
@@ -47,7 +41,6 @@ Manually create `index.html`
         // Config here...
     }
 </script>
-
 <script src="https://cdn.jsdelivr.net/npm/recipage"></script>
 
 </html>
@@ -71,7 +64,7 @@ window.$recipage = {
 
 ## Author
 
-**recipage** © [Sukka](https://github.com/SukkaW), Released under the [MIT](./LICENSE) License.<br>
+**recipage** © [Sukka](https://github.com/SukkaW), Released under the [MIT](https://github.com/SukkaW/recipage/blob/master/LICENSE) License.<br>
 Authored and maintained by Sukka with help from contributors ([list](https://github.com/SukkaW/recipage/graphs/contributors)).
 
 > [Personal Website](https://skk.moe) · [Blog](https://blog.skk.moe) · GitHub [@SukkaW](https://github.com/SukkaW) · Telegram Channel [@SukkaChannel](https://t.me/SukkaChannel) · Twitter [@isukkaw](https://twitter.com/isukkaw) · Keybase [@sukka](https://keybase.io/sukka)
