@@ -1637,7 +1637,6 @@
     (() => {
         let xhr = new XMLHttpRequest()
         xhr.open('GET', encodeURI(window.$recipage.url), true);
-        xhr.timeout = 4500;
 
         xhr.onload = () => {
             if (xhr.status >= 200 && xhr.status < 300 || xhr.status === 304) {
