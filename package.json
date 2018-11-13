@@ -1,8 +1,8 @@
 {
   "name": "recipage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ":page_with_curl: Recipe-Page: Turn a markdown file into one simple page",
-  "main": "/dist/recipage.min.js",
+  "main": "/dist/recipage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.1"
   }
 }

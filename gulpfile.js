@@ -4,6 +4,7 @@ let babel = require('gulp-babel');
 let autoprefixer = require('gulp-autoprefixer');
 let cleanCSS = require('gulp-clean-css');
 let header = require('gulp-header');
+let rename = require('gulp-rename');
 let pkg = require('./package.json');
 
 
@@ -53,6 +54,9 @@ gulp.task('minify-js', () => {
             keep_fnames: false
         }))
         .pipe(header(jsBanner, { pkg: pkg }))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest('dist'));
 });
 
@@ -61,6 +65,9 @@ gulp.task('minify-css', () => {
         .pipe(autoprefixer(configs.browsers))
         .pipe(cleanCSS(configs.cleanCSS))
         .pipe(header(cssBanner, { pkg: pkg }))
+        .pipe(rename({
+            suffix: '.min'
+        }))
         .pipe(gulp.dest('dist'));
 });
 
